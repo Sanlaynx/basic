@@ -1,0 +1,252 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: Helvetica;
+	font-size: 16px;
+}
+body {
+	background: url(../images/background.png);
+}
+.wrap {
+	max-width: 1024px;
+	margin: 10px auto;
+	background: url(../images/bg.png) repeat-y;
+	box-shadow: -5px 0px 20px #000;
+}
+.line {
+	background-color: #1F1F1F;
+	height: 8px;
+}
+.logo-signup, .menu {
+	max-width: 960px;
+
+	margin: 0 auto;
+}
+.logo-signup {
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	margin-left:3px;
+}
+.signup ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	width: 210px;
+	margin-top: 52px;
+	padding: 0;
+}
+.signup a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #5B5B5B;
+	border-right: 1.5px solid #9FA1A0;
+	padding-right: 8px;
+}
+.signup li:last-of-type a {
+	color: #C8443A;
+	padding: 0;
+	border: none;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	height: 34px;
+	align-items: center;
+	background: linear-gradient(to top, #A31C12, #C24C3B);
+	border-radius: 5px;
+}
+.menu ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	width: 595px;
+}
+.menu a {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ECECEC;
+	padding: 8.5px 18px;
+}
+.menu li:first-of-type a {
+	background: linear-gradient(to top, #202020, #454545);
+	padding: none;
+	padding-left: 22px;
+	border-radius: 5px 0 0 5px;
+	height: 34px;
+}
+
+.callus {
+	background: url(../images/callus.png) no-repeat;
+	font-size: 18px;
+	font-weight: bold;
+	height: 34px;
+	color: #ECECEC;
+	display: flex;
+	justify-content: flex-end;
+	-ms-align-items: center;
+	align-items: center;
+	padding-right: 22px;
+	width: 318px;
+}
+.main {
+	display: flex;
+	width: 960px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	margin-top: 14px;
+	margin-bottom: 31px;
+}
+.banner {
+	margin-right: 7px;
+}
+.login {
+	width: 271px;
+	margin-left: 6px;
+	background: #1F1F1F;
+	color: #ECECEC;
+	position: relative;
+	border-radius: 4px;
+	height: 309px;
+	background: linear-gradient(to bottom, #1F1F1F 0px, #4D4E4E 194px, #1F1F1F 194px, #1F1F1F 309px);
+}
+.login img {
+	position: absolute;
+	left: 23px;
+	top: 16px;
+}
+.login h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 19px 0 16px 50px;
+	letter-spacing: -1px;
+}
+.input {
+	width: 200px;
+	height: 25px;
+	margin: 0px 27.5px 12px 27.5px;
+	border: none;
+	padding: 0;
+	padding-left: 16px;
+}
+.remember {
+	width: 14px;
+	height: 13px;
+	margin: 0;
+	margin-right: 4px;
+}
+.login label {
+	margin: 0 79px;
+	font-size: 14px;
+}
+.forget-pass {
+	margin: 0px 66px 12px 66px;
+}
+.forget-pass a {
+	text-decoration: none;
+	color: #F0F2F2;
+	font-size: 14px;
+}
+.button {
+	height: 34px;
+	font-size: 14px;
+	padding: 0 18px;
+	text-align: center;
+	color: #EBEBEB;
+	background: linear-gradient(to top, #B4271C 0%, #D74032 50%, #DF4234 100%);
+	border: none;
+	border-radius: 4px;
+}
+.btn-login {
+	margin: 0 98px;
+
+}
+.shadow {
+	position: absolute;
+	width: 75px;
+	padding: 0;
+	margin: 0 98px;
+	height: 17px;
+	background: #404040;
+	opacity: 0.5;
+	-webkit-filter: blur(3px);
+-moz-filter: blur(5px);
+filter: blur(5px);
+}
+.login h3 {
+	font-size: 18px;
+	text-align: center;
+	margin: 16px 0 11px 0;
+}
+.btn-open {
+	margin: 0 63px;
+}
+
+.specialities, .howitworks {
+	margin-top: 20px;
+	color: #595959;
+	
+}
+.specialities {
+	margin-left: 15px;
+}
+.howitworks {
+	margin-left: 8px;
+}
+.specialities h1, .howitworks h1 {
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+.spec-word {
+	color: #E24335;
+}
+.specialities li {
+	line-height: 1.8;
+	list-style-image: url(../images/check-mark.png);
+	padding-left: 5px;
+	font-size: 14px;
+}
+.offers {
+	border: 1px solid #C6C9C6;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	width: 571px;
+	height: 142px;
+	background-color: #F2F4F4;
+}
+.footer {
+	background: #1F1F1F;
+	height: 63px;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	color: #EBE8E8;
+}
+.secure {
+	margin-left: 22px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.copyright {
+	margin-right: 32px;
+}
+.copyright a {
+	text-decoration: none;
+	color: #EBE8E8;
+}
